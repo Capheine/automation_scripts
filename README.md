@@ -21,5 +21,5 @@ Requires *pygithub* to access remote repository. Add your github token and usern
 ## Usage
 In a terminal window:
 ```bash
-push_git <commit message>
+push_git "commit message"
 ```
