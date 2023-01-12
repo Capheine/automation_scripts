@@ -10,7 +10,8 @@ fi
 
 echo "--- Setting up remote repo ---"
 
-# sets up the repository on my profile
+# EDIT PATH TO PYTHON SCRIPT
+# call python script
 python3 /Path/to/create_git.py $1
 
 
@@ -21,7 +22,7 @@ mkdir "$PWD/$1"
 cd $1
 git init .
 
-#Use SSD link (can be replaced by https link)
+#ADD USERNAME HERE. Currently a SSD link (can be replaced by https link)
 git remote add origin git@github.com:USERNAME/$1.git
 
 # adding initial files
