@@ -22,8 +22,10 @@ mkdir "$PWD/$1"
 cd $1
 git init .
 
-#ADD USERNAME HERE. Currently a SSD link (can be replaced by https link)
-git remote add origin git@github.com:USERNAME/$1.git
+#fetch username from github config file
+name=`git config user.name`
+#Currently a SSD link (can be replaced by https link)
+git remote add origin git@github.com:$name/$1.git
 
 # adding initial files
 touch .gitignore
