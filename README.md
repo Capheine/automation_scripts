@@ -14,7 +14,10 @@ This creates a folder in your current directory.
 
 ## Requirements
 
-Requires **pygithub** to access remote repository. Add your github token to the *create_git.py* file where indicated, your user name will automatically be detected if it set in the config files. If not, add the username manually to the *create_git.sh* file. Make sure to set the absolute path of the python script to the shell script. 
+- Requires **pygithub** to access remote repository. 
+- Add your github token to the *create_git.py* file where indicated, your user name will automatically be detected if it set in the config files. If not, add the username manually to the *create_git.sh* file.
+- Make sure to set the absolute path of the python script to the shell script. 
+- give executable permission to the files 
 
 # Add/commit/push automation
 
